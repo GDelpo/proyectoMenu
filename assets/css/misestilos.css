@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
+
+body{
+    font-family: 'Righteous', cursive; 
+}
+
+body p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+li:hover{
+    color: rgba(255, 0, 0, 0.774);
+    font-size: larger;
+} 
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/bg/bgprincipio.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  background-image: url("../img/bg/parallax.png");
+  
+  /* Set a specific height */
+  height: 200px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* DECRIPCION */
+
+.descripcion {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10em;
+}
+
+.head p {
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  padding-top: 0.4em;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  color: white;
+}
+
+.head h1 {
+  border-bottom: solid;
+  width: 100%;
+  font-size: 3em;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.2em;
+  color: white;
+}
+
+.contenedor {
+  padding: 5rem;
+}
+
+.contenedor h2 {
+  padding-top: 3.125rem;
+  padding-bottom: 1.5rem;
+}
+
+.contenedor p {
+  font-size: 1.1rem;
+}
+
+ul {
+  margin: 3rem;
+}
+
+.dos {
+  background-color: #e1e1e1;
+}
