@@ -17,7 +17,7 @@ li:hover{
 
 .parallax {
   /* The image used */
-  background-image: url("../img/bg/bgprincipio.jpg");
+  background-image: url("../img/bg/bgprincipio2.jpg");
 
   /* Set a specific height */
   min-height: 500px;
@@ -30,7 +30,7 @@ li:hover{
 }
 
 .parallax2 {
-  background-image: url("../img/bg/parallax.png");
+  background-image: url("../img/bg/bgprincipio2.jpg");
   
   /* Set a specific height */
   height: 200px;
@@ -40,6 +40,11 @@ li:hover{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.parallax2 h1{
+  color: white;
+  letter-spacing: 0.7em;
 }
 
 /* DECRIPCION */
@@ -96,5 +101,6 @@ ul {
 }
 
 .dos {
-  background-color: #e1e1e1;
+  background-color: rgb(110, 82, 82);
+
 }
