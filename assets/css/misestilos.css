@@ -96,11 +96,20 @@ li:hover{
   font-size: 1.1rem;
 }
 
-ul {
+.contenedor ul {
   margin: 3rem;
 }
 
 .dos {
   background-color: rgb(110, 82, 82);
 
+}
+
+.navbar-nav img {
+  margin-left: 3.125rem;
+  margin-right: 3.125rem;
+}
+
+.navbar-collapse ul{
+  padding: 1.25rem;
 }
